@@ -18,7 +18,7 @@ public class SubtractionController {
 		int m = Integer.valueOf(minuend);
 		int s = Integer.valueOf(subtrahend);
 		int difference = m - s;
-		System.out.println("hi");
+		System.out.println("hielloooo");
 
 		return "{\"minuend\":\"" + minuend + "\", \"subtrahend\":\"" + subtrahend + "\", \"difference\": \"" + difference + "\"}";
 	}
