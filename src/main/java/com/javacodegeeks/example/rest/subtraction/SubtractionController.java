@@ -19,6 +19,6 @@ public class SubtractionController {
 		int s = Integer.valueOf(subtrahend);
 		int difference = m - s;
 
-		return "{\"minuend\":\"" + minuend + "\", \"subtrahend\":\"" + subtrahend + "\", \"difference\": \"" + difference + "\"}";
+		return "{\"minuend\":\"" + minuend + "\//", \"subtrahend\":\"" + subtrahend + "\", \"difference\": \"" + difference + "\"}";
 	}
 }
