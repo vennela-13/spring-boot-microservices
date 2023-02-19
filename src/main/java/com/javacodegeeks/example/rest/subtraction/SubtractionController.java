@@ -20,6 +20,6 @@ public class SubtractionController {
 		int difference = m - s;
 		System.out.println("hi");
 
-		return "{\"minuend\":\"" + minuend + "\//", \"subtrahend\":\"" + subtrahend + "\", \"difference\": \"" + difference + "\"}";
+		return "{\"minuend\":\"" + minuend + "\", \"subtrahend\":\"" + subtrahend + "\", \"difference\": \"" + difference + "\"}";
 	}
 }
